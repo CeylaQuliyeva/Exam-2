@@ -1,0 +1,33 @@
+.detailCards{
+    width: 100%;    
+    gap: 20px;
+    margin: 50px;
+    padding: 50px;
+}   
+.detailCard{
+    width:50%;
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+.detailCardImg{
+    height: 25%;
+}
+.detailCardImg img{
+    width: 100%;
+    border-radius: 1rem;
+}   
+.detailCardTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 10%;
+    margin: 10px;
+}

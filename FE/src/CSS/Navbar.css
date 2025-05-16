@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-size: x-large;
+}
+.nav{
+    color:  rgb(74, 146, 74);
+}
+.navLink{
+    display: flex;
+    gap: 40px;
+
+}
+.active{
+    color: rgb(74, 146, 74);
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(74, 146, 74);
+    height: 20px;
+    color: white;
+}

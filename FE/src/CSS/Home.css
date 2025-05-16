@@ -1,0 +1,35 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.card{
+    width: 20%;
+    border: 1px solid grey;
+    border-radius: 1rem;
+}
+.cardImg{
+    height: 70%;
+}
+.cardImg img{
+    border-radius: 1rem;
+    width: 100%;
+}
+.cardTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 10%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 10%;
+    margin: 10px;
+}
